@@ -1,1 +1,1 @@
-# cfkafeterija
+# Read more <a href="https://github.com/nikolaict/cfkafeterija/dokumentacija.pdf"><b>Dokumentacija</b></a> and visit the project: <a href="https://nikolaict.github.io/cfkafeterija/">C&F kafeterija</a>

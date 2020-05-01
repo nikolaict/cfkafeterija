@@ -1,0 +1,14 @@
+[
+	{
+		"id": 1,
+		"naziv": "Cappuccino"
+	},
+	{
+		"id" : 2,
+		"naziv" : "Espresso"
+	},
+	{
+		"id": 3,
+		"naziv" : "Mix"
+	}
+]

@@ -1,0 +1,192 @@
+[
+	{	
+		"id":1,
+		"naziv":"Cappuccino classico",
+		"slika":"images/cappuccino1.jpg",
+		"kategorija":
+			{
+			  "id":1,
+			  "naziv":"Cappuccino"
+			}
+	},
+	{
+		"id":2,
+		"naziv":"Doppio Cappuccino",
+		"slika":"images/cappuccino2.jpg",
+		"kategorija":
+			{
+			  "id":1,
+			  "naziv":"Cappuccino"
+			}
+	},
+	{
+		"id":3,
+		"naziv":"Cappuccino al Cacao",
+		"slika":"images/cappuccino3.jpg",
+		"kategorija":
+			{
+			  "id":1,
+			  "naziv":"Cappuccino"
+			}
+	},
+	{
+		"id":4,
+		"naziv":"Cappuccino al Ciokolato",
+		"slika":"images/cappuccino4.jpg",
+		"kategorija":
+			{
+			  "id":1,
+			  "naziv":"Cappuccino"
+			}
+	},
+	{
+		"id":5,
+		"naziv":"Espresso Ristretto",
+		"slika":"images/espresso1.jpg",
+		"kategorija":
+			{
+			  "id":2,
+			  "naziv":"Espresso"
+			}
+	},
+	{
+		"id":6,
+		"naziv":"Espresso Classico",
+		"slika":"images/espresso2.jpg",
+		"kategorija":
+			{
+			  "id":2,
+			  "naziv":"Espresso"
+			}
+	},
+	{
+		"id":7,
+		"naziv":"Americano",
+		"slika":"images/espresso3.jpg",
+		"kategorija":
+			{
+			  "id":2,
+			  "naziv":"Espresso"
+			}
+	},
+	{
+		"id":8,
+		"naziv":"Doppio Espresso",
+		"slika":"images/espresso4.jpg",
+		"kategorija":
+			{
+			  "id":2,
+			  "naziv":"Espresso"
+			}
+	},
+	{
+		"id":9,
+		"naziv":"Espresso Macchiato",
+		"slika":"images/espresso5.jpg",
+		"kategorija":
+			{
+			  "id":2,
+			  "naziv":"Espresso"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Espresso Affogato",
+		"slika":"images/mix1.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Baby Marakesh",
+		"slika":"images/mix2.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Latte Macchiato Cioccolato",
+		"slika":"images/mix3.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Latte Macchiato Caramello",
+		"slika":"images/mix4.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Cafe Mocha Bianca",
+		"slika":"images/mix5.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Galliano's Hot-Flower",
+		"slika":"images/mix6.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Tia Caffe",
+		"slika":"images/mix7.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Irish Coffee",
+		"slika":"images/mix8.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"Grand Cafe Flambe",
+		"slika":"images/mix9.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	},
+	{
+		"id":1,
+		"naziv":"1001 Night Coffee",
+		"slika":"images/mix10.jpg",
+		"kategorija":
+			{
+			  "id":3,
+			  "naziv":"Mix"
+			}
+	}
+]

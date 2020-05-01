@@ -1,0 +1,684 @@
+*
+{
+	box-sizing:border-box;
+	margin:0px;
+	padding:0px;
+}
+
+body
+{
+	font-family:Arial, Helvetica;
+	font-size: 15px;
+	
+}
+
+ul
+{
+	list-style-type:none;
+}
+
+a
+{
+	text-decoration:none;
+	
+}
+
+/* ---------- Meni ---------- */
+
+.omot
+{	
+	width:100%;
+	text-align:center;
+	padding: 25px 0px;
+}
+
+.omot ul li
+{
+	display: inline;
+	
+}
+
+.omot  ul li a
+{
+	font-size: 19px;
+	text-transform: uppercase;
+	color: #ffffff;
+}
+
+.omot ul li a:hover
+{
+	color:#cc6600;
+	font-weight:bold;
+}
+
+.omot .meniIcon
+{
+	font-size:45px;
+	cursor:pointer;
+}
+
+.meniDugme
+{
+	font-size:45px;
+	cursor:pointer;
+}
+
+#meni .aktivanlink a 
+{
+	color: #cc6600;
+	font-weight:bold;
+}
+
+#meni .neaktivanlink a
+{
+	color: #ffffff;
+	font-size:18px;
+}
+
+#meni .neaktivanlink a:hover
+{
+	color: #cc6600;
+}
+
+/* ---------- Slajder - JQuery ---------- */
+
+#slajder
+{
+	
+	display: block;
+    height: auto;
+    max-width: 1440px;
+    position: relative;
+	transform: translateX(-50%);
+	width: 100%;
+	left: 50%;
+}
+
+ #slajder img
+{
+	width: 100%;
+	display: none; 
+} 
+
+#slajder .show
+{
+	display: block;
+}
+
+/* ----------  Pročitaj više ---------- */
+
+.pasus 
+{
+	width:598px;
+	height: auto;
+	margin: 20px auto -5px;
+	position: relative;
+}
+
+.pasus h1
+{	
+	text-transform: uppercase;
+}
+
+.pasus p
+{
+	font-size: 16px;
+    line-height: 22px;
+    margin: 20px auto;
+	text-align: justify;
+}
+
+.pasus a
+{
+	color: #808080;
+}
+
+.nestani
+{
+	display:none;
+}
+
+#prikazi
+{	
+	font-size: 14px;
+	margin: 0 auto;
+	padding-top: 15px;
+	text-transform: uppercase;
+	cursor: pointer;
+	height: 45px;
+	width: 135px;
+	background-color: #1a0900;
+	
+}
+
+#prikazi span
+{
+	color: #FFFFFF;
+}
+
+#prikazi:hover
+{
+	background-color: #cc6600;
+}
+
+.futerBox
+{	
+	border-top: 1px solid #1a0900;
+    padding-top: 40px;
+    position: relative;
+    width: 100%;
+	
+}
+
+.cistac
+{
+	clear:both;
+}
+
+#btnPretraga, #btnPrikazi
+{
+	padding: 7px;
+	background-color: #1a0900;
+	color: #ffffff;
+	border: 0px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#tbPretraga
+{
+	margin: 20px auto;
+	padding: 6px;
+	border: 0px;
+	border: 1px solid #1a0900;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#kategorije
+{
+	padding: 5px;
+	border: 0px;
+	border: 1px solid #1a0900;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+#btnPrikazi:hover
+{
+	background-color: #cc6600;
+}
+
+#futer
+{
+	border-top: 1px solid #1a0900;
+    padding-top: 40px;
+    position: relative;
+    width: 100%;
+	margin-top:20px;
+}
+/* ---------- Informacije ---------- */
+
+#info
+{
+	margin-top:14px;
+	
+}
+
+#info a
+{
+	font-weight:bold;
+	color: #1a0900;
+}
+
+#info a:hover
+{
+	color:#cc6600;
+}
+
+/* ---------- Sadržaj ---------- */
+#centralni
+{
+	width:100%;
+	border-top: 1px solid #1a0900;
+	box-sizing: border-box;
+	padding: 20px 0px; 
+	text-align:center;
+	margin: 0 auto;
+	
+}
+
+#desno
+{
+	width:620px;
+	float:right;
+}
+
+#levo
+{	
+	width:620px;
+	float: left;
+}
+
+#levo a
+{	
+	color: #1a0900;
+}
+
+#levo a:hover
+{
+	color:#cc6600;
+}
+
+/* ---------- Selekcija - Sortiranje ---------- */
+
+#selekcija, #selekcija ul
+{
+	width:40%;
+	padding:0px;
+	margin: 20px auto;
+	text-transform:uppercase;
+}
+
+#selekcija ul
+{
+	margin:auto;
+}
+
+#selekcija li
+{
+	cursor:pointer;
+	font-size:18px;
+	padding:5px;
+}
+
+#selekcija li a 
+{
+	padding-left:10px;
+	color:#1a0900;
+	
+}
+
+#selekcija li > ul > li 
+{
+	cursor:auto;
+	padding:0 14px;
+	
+}
+
+#selekcija li > ul > li >a:hover
+{
+	color:#1a0900;
+}
+
+/* ---------- Slike - Galerija ---------- */
+
+.galerija
+{
+    margin: 5px;
+    float: left;
+	width:32.5%;
+}
+
+.galerija img
+{
+    width: 240px;
+    height: 240px;
+	margin: auto;
+	border: 3px solid #1a0900;
+	border-radius: 60px;
+}
+
+.opis
+{
+	padding: 15px;
+    text-align: center;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+/* ---------- Autor ---------- */
+
+#autor
+{
+	width:600px;
+	height:394px;
+}
+
+#omotFuter
+{
+	padding: 6em 0em;
+}
+	
+/* ---------- Mini Galerija - Lightbox ---------- */
+	
+#prikaz
+{
+	overflow: hidden;
+	text-align: center;
+}
+	
+#prikaz img
+{
+	margin: 0;
+	padding: 0;
+}
+	
+#prikaz .box
+{
+	padding: 30px;
+	background: #FFF;
+	border-bottom: 2px solid #7C7C7C;
+	border-right: 1px solid #DADADA;
+	border-left: 1px solid #DADADA;
+}
+
+.blok
+{
+	width: 1200px;
+	margin: 0px auto;
+}
+	
+.kolonaNaslov
+{
+	overflow: hidden;
+	margin-bottom: 4em;
+	text-align: center;
+}
+	
+.kolonaNaslov h2
+{
+	letter-spacing: 0.10em;
+	text-transform: uppercase;
+	font-size: 2em;
+	font-weight: 700;
+	color: #1a0900;
+}
+
+.kolonaNaslov .uzLiniju
+{
+	display: block;
+	padding-top: 0.2em;
+	font-weight: 300;
+	font-size: 1.5em;
+}
+	
+.slika
+{
+	display: inline-block;
+}
+	
+.slika-prikaz
+{
+	display: block;
+	width: 100%;
+	margin: 0 0 0 0;
+}
+	
+.kolene1,
+.kolene2,
+.kolene3,
+.kolene4
+{
+	width: 282px;
+}
+
+.kolene1 img,
+.kolene2 img,
+.kolene3 img,
+.kolene4 img
+{
+	height: 130px;
+}
+	
+.kolene1,
+.kolene2
+{
+	float: left;
+	margin-right: 24px;
+}
+	
+.kolene3
+{
+	float: left;
+}
+	
+.kolene4
+{
+	float: left;
+	margin-left: 24px;
+}
+	
+/* ---------- Socijalne mreže ---------- */
+
+.icon-bar ul
+{
+	overflow:  hidden;
+	margin: 0em 0 3em 0;
+	padding-top: 1em;
+	text-align: center;
+}
+.icon-bar ul li
+{
+	display: inline-block;
+	padding: 0em 0.30em;
+	font-size: 1em;
+}
+
+.icon-bar ul li a 
+{
+	display: inline-block;
+	background: #1a0900;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.icon-bar ul li a:hover 
+{
+    background-color: #FFFFFF;
+}
+
+/* ---------- Slajder ---------- */
+
+.slideshow-box
+{
+	max-width: 600px;
+	position: relative;
+	margin: auto;
+}
+
+.mojSlajder
+{
+    display: none;
+}
+
+.prikaz
+{
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade 
+{
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+@keyframes fade 
+{
+	from {opacity: .4} 
+	to {opacity: 1}
+}
+
+.tekst-crveno
+{
+	color:#FF0000;
+}
+
+/* ---------- Back To Top ---------- */
+
+#back-to-top 
+{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+    z-index: 9999;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    line-height: 45px;
+    background: #1a0900;
+    color: #FFFFFF;
+    cursor: pointer;
+    border: 0;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: opacity 0.2s ease-out;
+    opacity: 0;
+}
+
+#back-to-top.show 
+{
+    opacity: 1;
+}
+
+#back a
+{
+	font-size: 3em;
+}
+
+#content 
+{
+    height: auto;
+}
+
+/* ---------- Kontakt - Forma ---------- */
+
+tabela
+{
+	width: 600px;
+	padding: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#tabela tr td
+{
+	padding: 5px;
+}
+
+#tabela th
+{
+	text-align: left;
+	padding-left: 5px;
+}
+
+#tbImePrezime
+{
+	width: 100%;
+	height: 35px;
+	font-size: 15px;
+	outline: none;
+}
+
+#tbEmail
+{
+	width: 100%;
+	height: 35px;
+	font-size: 15px;
+	outline: none;
+}
+
+#tbNaslov
+{
+	width: 100%;
+	height: 35px;
+	font-size: 15px;
+	outline: none;
+}
+
+#tbPoruka
+{
+	width: 100%;
+	height: 175px;
+	font-size: 15px;
+	resize: vertical;
+	min-height: 100px;
+}
+
+#greske
+{
+	width: 100%;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+#greske ul li
+{
+	padding-top: 3px;
+	padding-bottom: 3px;
+	color: red;
+	font-weight: bold;
+}
+
+#greske ul
+{
+	padding-bottom: 5px;
+}
+
+/* ---------- Sandwich meni ---------- */
+
+.overlay
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+}
+
+.overlay-content
+{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.overlay a
+{
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus
+{
+    color: #f1f1f1;
+}
+
+.overlay .closebtn
+{
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}

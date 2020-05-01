@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CAFE & Factory | Kontakt </title>
+	<meta name="keywords" content="domaca kafa, topla cokolada, espresso, macchiato, cappuccino, mochaccino, latte">
+	<meta name="description" content="Prva srpska kafeterija u skrivena u srcu Beograda">
+	<meta charset="utf-8">
+	<link href="css/style.css" rel="stylesheet" type="text/css"/>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name="author" content="Nikola Čeković nikola.cekovic.2005.17@ict.edu.rs">
+	<link rel="shortcut icon" href="images/favicon.ico">
+</head>
+<body>
+	<div class="omot">
+		<a href="index.html" title="C&F"><img src="images/logo.png" alt="Logo"/></a>
+	</div>
+		<div class="cistac"></div>
+	<div class="omot">
+		<div id="meniSlajder" class="overlay">
+			<a href="javascript:void(0)" class="closebtn" onclick="zatvoriMeni()">&times;</a>
+			<div class="overlay-content">
+				<div id="meni">
+					<ul>
+						<li>
+							<a href="index.html">C&F </a>
+						</li>
+						<li>
+							<a href="galerija.html">Cafe&Gallery </a>
+						</li>
+						<li>
+							<a href="meni.html">Cafe&Coffee </a>
+						</li>
+						<ul id="dd-meni">
+							<li>
+								<a href="o_nama.html">O nama</a>
+									<ul>
+										<li>
+											<a href="autor.html">O Autoru</a>
+										</li>
+									</ul>
+							</li>
+						</ul>
+						<li class="aktivanlink">
+							<a href="kontakt.html">Kontakt</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+			<span class="meniDugme" onclick="otvoriMeni()">&#9776;</span>
+	</div>
+		<div class="cistac"></div>
+			<div class="omot">
+				<div class="futerBox">
+					<h1>Kontakt</h1><br/><br/>
+					<div id="levo">
+						  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2831.1024366008946!2d20.46647561531936!3d44.79910097909873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x475a700b6e45253f%3A0xd53d5bcf81409a0!2sCafe+%26+Factory!5e0!3m2!1ssr!2srs!4v1524000759798" width="400" height="224" frameborder="0" style="border:0" allowfullscreen></iframe>
+						  <br/><br/>
+							<span class="fa fa-home"></span>&nbsp;CAFE & Factory<br/>
+							Svetog Save 43<br/>
+							Jurija Gagarina 32<br/>
+							11000 Beograd, Srbija<br/>
+							Radno vreme: 08:00–23:00<br/>
+							<span class="fa fa-phone"></span>&nbsp;Tel: 065 3675643<br/>
+							Website: <a href="http://cafe-factory.net">www.cafe-factory.net</a>
+							<br/>
+							Email: <a href="#">official@cafe-factory.net</a>
+					</div>
+					<div id="desno">
+						<form id="forma1" action="#" method="GET">
+						  <table id="tabela">
+							<tr>
+							  <th>Ime i prezime<span class="tekst-crveno">*</span></th>
+							  <th>Email<span class="tekst-crveno">*</span></th>
+							</tr>
+							<tr>
+							  <td><input type="text" id="tbImePrezime" placeholder="Ime Prezime" autocomplete="on"/></td>
+							  <td><input type="text" id="tbEmail" placeholder="nikola.cekovic@gmail.com" autocomplete="on"/></td>
+							</tr>
+							<tr>
+							  <tr>
+							  <th>Naslov</th>
+							</tr>
+							  <td colspan="2"><input type="text" id="tbNaslov" placeholder="Naslov"/></td>
+							</tr>
+							<tr>
+							  <th colspan="2">Poruka<span class="tekst-crveno">*</span></th>
+							</tr>
+							<tr>
+							  <td colspan="2">
+								<textarea id="tbPoruka" placeholder="Poruka"></textarea>
+							  </td>
+							</tr>
+							<tr>
+								<tr>
+								  <th>Anketa<span class="tekst-crveno">*</span></th>
+								</tr>
+								<td>Da li Vam se sviđa naša <b>C&F </b> kafa:&nbsp;&nbsp;&nbsp;
+									<input type="radio" name="rbAnketa" value="Da"/>&nbsp;<b>DA</b>&nbsp;&nbsp;&nbsp;
+									<input type="radio" name="rbAnketa" value="Ne"/>&nbsp;<b>NE</b>
+								</td>
+								<td><input type="button" id="btnPrikazi" onclick="proveraFormulara();" value="POŠALJI"/></td>
+								</tr>
+						  </table>
+						</form>
+					</div>
+				</div>
+					<div id="greske" class="cistac">
+					
+					</div>
+						<div class="cistac"></div>
+			</div>
+		<div class="omot">
+	<div id="futer">
+			<div class="omot">
+				<a href="index.html" title="C&F"><img src="images/logo02.png" alt="Logo"/></a>
+			</div>
+			<div id="futerLinkovi">
+				<div class="icon-bar">
+					<ul>
+						<li><a href="https://twitter.com/"><i class="fa fa-twitter" title="Twitter"></i></a></li>
+						<li><a href="https://www.facebook.com/"><i class="fa fa-facebook" title="Facebook"></i></a></li> 
+						<li><a href="https://www.instagram.com/"><i class="fa fa-instagram" title="Instagram"></i></a></li>
+						<li><a href="https://www.linkedin.com/"><i class="fa fa-linkedin" title="Linkedin"></i></a></li>
+						<li><a href="sitemap.xml"><i class="fa fa-sitemap" title="Sitemap"></i></a></li>
+						<li><a href="dokumentacija.pdf"><i class="fa fa-file-pdf-o" title="Dokumentacija"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div id="info">
+				<p>Copyright &copy; 2018 - All Rights Reserved - <a href="http://www.ict.edu.rs/" title="Visoka škola strukovnih studija za informacione i komunikacione tehnologije u Beogradu">Visoka ICT škola</a></p>
+				<p>by <a href="autor.html" title="Autor">Nikola Čeković</a></p>
+			</div>
+		</div>
+			<div class="cistac"></div>
+	</div>
+	<div id="back">
+			<a href="#" id="back-to-top" class=" fa fa-angle-up" title="Back To Top">
+	</div>
+			<script type="text/javascript" src="js/script.js"></script>
+			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+			<script type="text/javascript" src="js/jquery.js"></script>
+</body>
+</html>
